@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86653BA9184C71A900E9EBDB /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 86653BA8184C71A900E9EBDB /* CalculatorBrain.m */; };
 		8681000A183E68CF00385DFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86810009183E68CF00385DFE /* Foundation.framework */; };
 		8681000C183E68CF00385DFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8681000B183E68CF00385DFE /* CoreGraphics.framework */; };
 		8681000E183E68CF00385DFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8681000D183E68CF00385DFE /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86653BA7184C71A900E9EBDB /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		86653BA8184C71A900E9EBDB /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 		86810006183E68CF00385DFE /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86810009183E68CF00385DFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8681000B183E68CF00385DFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -145,6 +148,8 @@
 		8681FFFD183E68CE00385DFE = {
 			isa = PBXGroup;
 			children = (
+				86653BA7184C71A900E9EBDB /* CalculatorBrain.h */,
+				86653BA8184C71A900E9EBDB /* CalculatorBrain.m */,
 				8681000F183E68CF00385DFE /* calculator */,
 				8681002E183E68CF00385DFE /* calculatorTests */,
 				86810008183E68CF00385DFE /* Frameworks */,
@@ -251,6 +256,7 @@
 			files = (
 				86810020183E68CF00385DFE /* ViewController.m in Sources */,
 				8681001A183E68CF00385DFE /* AppDelegate.m in Sources */,
+				86653BA9184C71A900E9EBDB /* CalculatorBrain.m in Sources */,
 				86810016183E68CF00385DFE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +466,7 @@
 				8681003A183E68CF00385DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8681003B183E68CF00385DFE /* Build configuration list for PBXNativeTarget "calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				8681003D183E68CF00385DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

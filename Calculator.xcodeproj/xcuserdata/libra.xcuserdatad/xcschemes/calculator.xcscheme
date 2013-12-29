@@ -17,7 +17,7 @@
                BlueprintIdentifier = "86810005183E68CE00385DFE"
                BuildableName = "calculator.app"
                BlueprintName = "calculator"
-               ReferencedContainer = "container:calculator.xcodeproj">
+               ReferencedContainer = "container:Calculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "86810026183E68CF00385DFE"
                BuildableName = "calculatorTests.xctest"
                BlueprintName = "calculatorTests"
-               ReferencedContainer = "container:calculator.xcodeproj">
+               ReferencedContainer = "container:Calculator.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "86810005183E68CE00385DFE"
             BuildableName = "calculator.app"
             BlueprintName = "calculator"
-            ReferencedContainer = "container:calculator.xcodeproj">
+            ReferencedContainer = "container:Calculator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "86810005183E68CE00385DFE"
             BuildableName = "calculator.app"
             BlueprintName = "calculator"
-            ReferencedContainer = "container:calculator.xcodeproj">
+            ReferencedContainer = "container:Calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -82,7 +82,7 @@
             BlueprintIdentifier = "86810005183E68CE00385DFE"
             BuildableName = "calculator.app"
             BlueprintName = "calculator"
-            ReferencedContainer = "container:calculator.xcodeproj">
+            ReferencedContainer = "container:Calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
